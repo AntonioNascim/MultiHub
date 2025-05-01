@@ -1,0 +1,45 @@
+:root{
+    --corDeFundo: #F7F7F7;
+    --corConteudoPrincipal: #F1EFEF;
+    --corInput: #9F9F9F;
+    --corBotao: #3B82F6;
+    --corBordaBotao: #1340B3;
+   --corLetraBota: #052151; 
+}
+
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body{
+    background-color: var(--corDeFundo);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+main{
+    background-color: var(--corConteudoPrincipal);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    height: 450px;
+    width: 350px;
+}
+h1{
+    /* font-family: ; */
+    padding: 40px 0px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap:49px ;
+}
